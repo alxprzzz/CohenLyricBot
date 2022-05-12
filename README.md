@@ -17,6 +17,5 @@ In my final Python file, I used the random and Tweepy libraries in order to rand
 
 
 
-![greece_21_perez](https://user-images.githubusercontent.com/102554461/167996140-ec62228c-30e2-4312-a00f-1163d3e27386.jpeg)
 
 
