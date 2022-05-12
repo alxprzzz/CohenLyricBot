@@ -2,6 +2,10 @@
 
 
 
+![CohenLyricBot_](https://user-images.githubusercontent.com/102554461/168000102-f09af355-d69b-4c3d-90a6-13fc168234c0.jpeg)
+
+
+
 This LyricBot posts rearranged lyrics by Leonard Cohen every 12 hours on Twitter. Cohen is a hugely influential poet, novelist, musician, and lyricist with a career that spanned nearly 50 years. Cohen had an illustrious career, with his most popular song “Hallelujah” having been covered over 300 times since its release in 1985.
 
 I initially gathered data about Cohen using an API by LyricGenius, which included many elements of metadata I didn’t need– including his biography, who performed his covers, and his spoken word albums. After I made a few other requests and included a list of words to exclude in my parameters, I received over 217 Kilobytes of data (instead of the 7 Megabytes I had initially gotten) that still included metadata which made it difficult to extra just the lyrics. 
@@ -10,10 +14,9 @@ I decided to follow a different path by web scraping lyric data from the fan web
 
 In my final Python file, I used the random and Tweepy libraries in order to randomize and tweet the lyrics. All files were then uploaded to AWS Lambda, where it is scheduled to tweet rearranged lyrics from 15 of Cohen’s albums every 12 hours. 
 
-![CohenLyricBot](https://user-images.githubusercontent.com/102554461/167990557-c794e46e-a0ce-4d8c-849e-2c38048e4354.png)
 
-![darkercard1](https://user-images.githubusercontent.com/102554461/167990534-f7c4a8ae-e7b9-40c8-a215-9a264b79f118.jpeg)
+
 
 ![greece_21_perez](https://user-images.githubusercontent.com/102554461/167996140-ec62228c-30e2-4312-a00f-1163d3e27386.jpeg)
 
-![CohenLyricBot_](https://user-images.githubusercontent.com/102554461/167996147-c27bfa9e-2a22-4225-8c0e-ec181aa6b6f5.jpeg)
+
